@@ -37,7 +37,7 @@
             // 
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.button1.ForeColor = System.Drawing.Color.Red;
             this.button1.Location = new System.Drawing.Point(24, 35);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(265, 151);
@@ -60,12 +60,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Salmon;
-            this.ClientSize = new System.Drawing.Size(713, 450);
+            this.BackColor = System.Drawing.Color.DarkGray;
+            this.ClientSize = new System.Drawing.Size(752, 450);
             this.Controls.Add(this.salida);
             this.Controls.Add(this.button1);
             this.ForeColor = System.Drawing.Color.LavenderBlush;
-            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Name = "Form1";
             this.Text = "Programita";
             this.Load += new System.EventHandler(this.Form1_Load);
